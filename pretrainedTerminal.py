@@ -20,10 +20,10 @@ def get_args():
         parser.add_argument('--neurons', '-n', type=int, default=500, help='Numero de capas')
         parser.add_argument('--num_cap', '-nc', type=int, default=1, help='Numero de capas')
         parser.add_argument('--ent_path', '-ep', type=str,
-                            default= 'D:\\rafaortizferegrino\\Bases de datos\\AumentoDatos\\ent\\',
+                            default= 'DATA_TRAINING',
                             help='Direccion de los datos de entrenamiento')
         parser.add_argument('--val_path', '-cvp', type=str,
-                            default= 'D:\\rafaortizferegrino\\Bases de datos\\AumentoDatos\\val\\',
+                            default= 'DATA_VALIDATION',
                             help='Direccion de los datos de validacion')
 
         return parser.parse_args()
